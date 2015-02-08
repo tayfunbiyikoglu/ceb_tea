@@ -28,9 +28,6 @@
 		B751BBF51A86AF8200C1309F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B751BBF41A86AF8200C1309F /* SystemConfiguration.framework */; };
 		B751BBF71A86AF9800C1309F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B751BBF61A86AF9800C1309F /* libz.dylib */; };
 		B751BBF91A86AFA600C1309F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B751BBF81A86AFA600C1309F /* libsqlite3.dylib */; };
-		B751BBFF1A86B3C200C1309F /* tea-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B751BBFE1A86B3C200C1309F /* tea-background.jpg */; };
-		B751BC011A86B50800C1309F /* tea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B751BC001A86B50800C1309F /* tea.jpg */; };
-		B751BC031A86B59000C1309F /* green-tea-weight-loss.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B751BC021A86B59000C1309F /* green-tea-weight-loss.jpg */; };
 		B751BC091A86CE5900C1309F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B751BC081A86CE5900C1309F /* LoginViewController.swift */; };
 		B751BC0B1A86E12700C1309F /* WaitingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B751BC0A1A86E12700C1309F /* WaitingViewController.swift */; };
 		B751BC0D1A87970500C1309F /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B751BC0C1A87970500C1309F /* RequestsViewController.swift */; };
@@ -75,9 +72,6 @@
 		B751BBF61A86AF9800C1309F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		B751BBF81A86AFA600C1309F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		B751BBFA1A86B03B00C1309F /* ceb_tea-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ceb_tea-Bridging-Header.h"; sourceTree = "<group>"; };
-		B751BBFE1A86B3C200C1309F /* tea-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tea-background.jpg"; path = "../../../Downloads/tea-background.jpg"; sourceTree = "<group>"; };
-		B751BC001A86B50800C1309F /* tea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tea.jpg; path = ../../../Downloads/tea.jpg; sourceTree = "<group>"; };
-		B751BC021A86B59000C1309F /* green-tea-weight-loss.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "green-tea-weight-loss.jpg"; path = "../../../Downloads/green-tea-weight-loss.jpg"; sourceTree = "<group>"; };
 		B751BC081A86CE5900C1309F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ceb_tea/LoginViewController.swift; sourceTree = "<group>"; };
 		B751BC0A1A86E12700C1309F /* WaitingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WaitingViewController.swift; path = ceb_tea/WaitingViewController.swift; sourceTree = "<group>"; };
 		B751BC0C1A87970500C1309F /* RequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RequestsViewController.swift; path = ceb_tea/RequestsViewController.swift; sourceTree = "<group>"; };
@@ -198,9 +192,6 @@
 			children = (
 				B751BC0E1A879B4400C1309F /* group-25.png */,
 				B751BC0F1A879B4400C1309F /* group-32.png */,
-				B751BC021A86B59000C1309F /* green-tea-weight-loss.jpg */,
-				B751BC001A86B50800C1309F /* tea.jpg */,
-				B751BBFE1A86B3C200C1309F /* tea-background.jpg */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -285,14 +276,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B751BBFF1A86B3C200C1309F /* tea-background.jpg in Resources */,
 				B751BBC41A86ACDD00C1309F /* Main.storyboard in Resources */,
 				B751BBC91A86ACDD00C1309F /* LaunchScreen.xib in Resources */,
-				B751BC011A86B50800C1309F /* tea.jpg in Resources */,
 				B751BC101A879B4400C1309F /* group-25.png in Resources */,
 				B751BBC61A86ACDD00C1309F /* Images.xcassets in Resources */,
 				B751BC111A879B4400C1309F /* group-32.png in Resources */,
-				B751BC031A86B59000C1309F /* green-tea-weight-loss.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +508,7 @@
 				B751BBDA1A86ACDD00C1309F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B751BBDB1A86ACDD00C1309F /* Build configuration list for PBXNativeTarget "ceb_teaTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +517,7 @@
 				B751BBDD1A86ACDD00C1309F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
