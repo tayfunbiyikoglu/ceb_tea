@@ -33,6 +33,7 @@
 		B751BC0D1A87970500C1309F /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B751BC0C1A87970500C1309F /* RequestsViewController.swift */; };
 		B751BC101A879B4400C1309F /* group-25.png in Resources */ = {isa = PBXBuildFile; fileRef = B751BC0E1A879B4400C1309F /* group-25.png */; };
 		B751BC111A879B4400C1309F /* group-32.png in Resources */ = {isa = PBXBuildFile; fileRef = B751BC0F1A879B4400C1309F /* group-32.png */; };
+		B751BC131A87C39B00C1309F /* RequestTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B751BC121A87C39B00C1309F /* RequestTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		B751BC0C1A87970500C1309F /* RequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RequestsViewController.swift; path = ceb_tea/RequestsViewController.swift; sourceTree = "<group>"; };
 		B751BC0E1A879B4400C1309F /* group-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "group-25.png"; sourceTree = "<group>"; };
 		B751BC0F1A879B4400C1309F /* group-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "group-32.png"; sourceTree = "<group>"; };
+		B751BC121A87C39B00C1309F /* RequestTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RequestTableCell.swift; path = ceb_tea/RequestTableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		B751BBAE1A86ACDD00C1309F = {
 			isa = PBXGroup;
 			children = (
+				B751BC121A87C39B00C1309F /* RequestTableCell.swift */,
 				B751BC0A1A86E12700C1309F /* WaitingViewController.swift */,
 				B751BC0C1A87970500C1309F /* RequestsViewController.swift */,
 				B751BC081A86CE5900C1309F /* LoginViewController.swift */,
@@ -304,6 +307,7 @@
 				B751BBBD1A86ACDD00C1309F /* AppDelegate.swift in Sources */,
 				B751BC0D1A87970500C1309F /* RequestsViewController.swift in Sources */,
 				B751BBBF1A86ACDD00C1309F /* FirstViewController.swift in Sources */,
+				B751BC131A87C39B00C1309F /* RequestTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

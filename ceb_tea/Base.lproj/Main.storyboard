@@ -154,34 +154,39 @@
         <!--Requests-->
         <scene sceneID="i7O-Ax-zNN">
             <objects>
-                <viewController title="Requests" id="tl1-5M-NLj" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="zX8-zi-TNC"/>
-                        <viewControllerLayoutGuide type="bottom" id="63j-Ij-kOG"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="uEW-3e-8Jz">
+                <viewController title="Requests" id="tl1-5M-NLj" customClass="RequestsViewController" customModule="ceb_tea" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="25" sectionHeaderHeight="22" sectionFooterHeight="22" id="Fud-Hg-2JW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="ohh-dR-dcd">
-                                <rect key="frame" x="16" y="28" width="343" height="582"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </tableView>
-                        </subviews>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="ohh-dR-dcd" firstAttribute="top" secondItem="zX8-zi-TNC" secondAttribute="bottom" constant="8" id="6HX-QU-Dvt"/>
-                            <constraint firstItem="ohh-dR-dcd" firstAttribute="leading" secondItem="uEW-3e-8Jz" secondAttribute="leadingMargin" id="KF8-UZ-coE"/>
-                            <constraint firstItem="ohh-dR-dcd" firstAttribute="trailing" secondItem="uEW-3e-8Jz" secondAttribute="trailingMargin" id="NBN-DR-IlA"/>
-                        </constraints>
-                    </view>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="myCell" rowHeight="43" id="BQ1-Zh-y8H" customClass="RequestTableCell" customModule="ceb_tea" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BQ1-Zh-y8H" id="Ovm-t4-YE7">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MFb-s1-On5">
+                                            <rect key="frame" x="14" y="12" width="332" height="20"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="username" destination="MFb-s1-On5" id="4xg-b6-ds9"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                    </tableView>
                     <tabBarItem key="tabBarItem" title="Requests" image="group-25" id="BlD-n0-LcO"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TnT-ih-5Rl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="580.5" y="131.5"/>
+            <point key="canvasLocation" x="580.5" y="129.5"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
